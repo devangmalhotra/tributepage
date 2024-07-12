@@ -1,38 +1,52 @@
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: rgb(213, 213, 213);
+    margin: 50px 0;
 }
-
 
 #image {
     width: 100%;
     max-width: 400px;
+    min-width: 100px;
     display: block;
-    margin-right: auto;
-    margin-left: auto;
     object-fit: cover;
     border-radius: 20px;
-    margin-top: 30px;
+    margin: 0 auto 10px auto;
+   
 }
 
-h1, p, figcaption {
+h1, p, figure {
     text-align: center;
     color: rgb(38, 38, 38);
 }
 
+p, h4, h3 {
+    display: block;
+    margin: 0 50px 20px 50px;
+    text-align: center;
+}
+
 #img-caption {
-    margin-top: 10px;
+    margin: 10px 0 30px 0;
     font-size: small;
 }
 
 #tribute-info {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 400px;
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+
 }
 
 li {
     margin: 16px 0;
+}
+
+h4 {
+    text-align: center;
+}
+
+#tribute-link {
+    color: rgb(67, 108, 148);
+    cursor: pointer;
 }
 
